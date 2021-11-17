@@ -78,8 +78,8 @@ section,
 .sectionButtonContainer label,
 .page_selection label {
   display: inline-flex;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border-radius: 100% 50px 300px;
   background: rgba(209, 196, 18, 0.8);
   transition: transform 0.2s;
@@ -147,4 +147,8 @@ section,
     align-items: center;
     margin: 0 20px 0 0;
   }
+
+
+  
+
 }

@@ -1,7 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Press+Start+2P&family=Yuji+Boku&display=swap');
 
+    
+    
     .navbar-brand {
     width: 0;
     }
+
+.font-change {
+font-family: 'Press Start 2P', cursive;
+
+
+}
+
+.nav-item {
+font-family: 'Press Start 2P', cursive;
+
+}
+ 
+
+.arrow {
+  border: solid black;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  width:40px;
+  height: 40px;
+  padding: 3px;
+  margin:10px 0 0 0;
+  cursor: pointer;
+}
+
+.arrow:hover {
+
+border: solid rgb(223, 35, 35);
+border-width: 0 5px 5px 0;
+padding: 20px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+position: relative;
+top: 100%;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
 
     .footerdown {
     position: fixed;
@@ -13,7 +69,7 @@
     .svg-img1 {
     position: absolute;
     left: 0;
-    top: 15%;
+    top: 20%;
     right: auto;
     bottom: auto;
     width: 16vw;
@@ -47,4 +103,19 @@
     bottom: auto;
     width: 6vw;
     max-width: 200px;
+    }
+
+    @media (max-width: 768px) {
+.arrow {
+  
+  width:5px;
+  height: 5px;
+ margin-bottom: 5px;
+  
+}
+
+
+
+
+
     }
