@@ -1,0 +1,50 @@
+
+    .navbar-brand {
+    width: 0;
+    }
+
+    .footerdown {
+    position: fixed;
+
+    bottom: 0;
+    overflow: hidden;
+    }
+
+    .svg-img1 {
+    position: absolute;
+    left: 0;
+    top: 15%;
+    right: auto;
+    bottom: auto;
+    width: 16vw;
+    max-width: 200px;
+    }
+ .svg-img2 {
+    position: absolute;
+    right: 0;
+    bottom:0%;
+    left: auto;
+    top: auto;
+    width: 16vw;
+    max-width: 200px;
+    }
+
+     .svg-img3 {
+    position: absolute;
+    right: 0;
+    bottom:70%;
+    left: auto;
+    top: auto;
+    width: 16vw;
+    max-width: 200px;
+    }
+
+       .svg-img4 {
+    position: absolute;
+    left: 0;
+    top:65%;
+    right: auto;
+    bottom: auto;
+    width: 6vw;
+    max-width: 200px;
+    }
